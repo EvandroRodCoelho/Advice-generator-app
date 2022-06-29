@@ -1,0 +1,14 @@
+@use "core/mixins" 
+@use "core/varibles" as var
+@use "layout/main"
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap')
+body
+  background-color: var.$background-color
+  @include mixins.flex(center,center)
+  height: 100vh
+  flex-direction: column
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: var.$font

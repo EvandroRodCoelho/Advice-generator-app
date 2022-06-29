@@ -1,3 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+.main {
+  background-color: #313b47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 0.78rem;
+  box-shadow: 5px 5px 10px 5px #1F2531;
+}
+.main .container {
+  max-width: 90%;
+  flex-direction: column;
+  padding: 0.78rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+@media screen and (min-width: 770px) {
+  .main .container {
+    max-width: 100%;
+  }
+}
+.main .container div > span {
+  color: #3e846c;
+}
+.main .container .paragraph-div p {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.main .container .division {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  max-width: 95%;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 770px) {
+  .main .container .division {
+    max-width: 100%;
+  }
+  .main .container .division img {
+    max-width: 100%;
+  }
+}
+.main .container .division img {
+  max-width: 90%;
+}
 
+.div-image-dice {
+  transform: translateY(-30px);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem;
+  background: #53ffad;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.div-image-dice:hover, .div-image-dice:active {
+  background-color: #53ffa9;
+  box-shadow: 4px 13px 94px 9px #274744;
+}
+.div-image-dice img {
+  height: 20px;
+}
+
+body {
+  background-color: #1e2430;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  height: 100vh;
+  flex-direction: column;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
 
 /*# sourceMappingURL=app.css.map */

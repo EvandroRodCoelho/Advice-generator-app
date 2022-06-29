@@ -1,0 +1,57 @@
+@use "../core/varibles"
+@use "../core/mixins"
+
+.main
+    background-color: varibles.$main-background
+    @include mixins.flex(center,center)
+    flex-direction: column
+    max-width: 90%
+    margin: 0 auto
+    border-radius: 0.78rem
+    box-shadow: 5px 5px 10px 5px #1F2531
+    .container
+        max-width: 90%
+        flex-direction: column
+        padding: 0.78rem
+        @include mixins.flex(center,center)
+        @media screen and (min-width: 770px)
+            max-width: 100%
+        div > span
+            color: varibles.$span
+        .paragraph-div p
+            color: varibles.$color
+            text-align: center
+            font-size: 1rem
+            font-weight: 800
+        .division
+            
+            @include mixins.flex(center,center)
+            max-width: 95%
+            margin-bottom: 30px
+            @media screen and (min-width: 770px)
+                max-width: 100%
+                img
+                    max-width: 100%
+            img
+                max-width: 90%
+           
+
+                
+            
+
+.div-image-dice
+    transform: translateY(-30px)
+    border-radius: 50%
+    @include mixins.flex(center,center)
+    padding: 0.50rem
+    background: varibles.$dice-background
+    outline: none
+    border: none
+    cursor: pointer
+    &:hover , &:active
+        background-color: #53ffa9
+        box-shadow: 4px 13px 94px 9px #274744
+        
+    img
+        height: 20px
+
