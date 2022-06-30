@@ -16,7 +16,9 @@
         @include mixins.flex(center,center)
         @media screen and (min-width: 770px)
             max-width: 100%
-        div > span
+            .paragraph-div .paragraph
+                font-size: 1.75rem
+        .div-id-phrase > p
             color: varibles.$span
         .paragraph-div p
             color: varibles.$color
@@ -24,7 +26,6 @@
             font-size: 1rem
             font-weight: 800
         .division
-            
             @include mixins.flex(center,center)
             max-width: 95%
             margin-bottom: 30px
@@ -48,6 +49,7 @@
     outline: none
     border: none
     cursor: pointer
+    transition: all .2s
     &:hover , &:active
         background-color: #53ffa9
         box-shadow: 4px 13px 94px 9px #274744

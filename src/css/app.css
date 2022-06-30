@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: #1e2430;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  height: 100vh;
+  flex-direction: column;
+}
+
 .main {
   background-color: #313b47;
   display: flex;
@@ -24,8 +41,11 @@
   .main .container {
     max-width: 100%;
   }
+  .main .container .paragraph-div .paragraph {
+    font-size: 1.75rem;
+  }
 }
-.main .container div > span {
+.main .container .div-id-phrase > p {
   color: #3e846c;
 }
 .main .container .paragraph-div p {
@@ -66,6 +86,7 @@
   outline: none;
   border: none;
   cursor: pointer;
+  transition: all 0.2s;
 }
 .div-image-dice:hover, .div-image-dice:active {
   background-color: #53ffa9;
@@ -73,23 +94,6 @@
 }
 .div-image-dice img {
   height: 20px;
-}
-
-body {
-  background-color: #1e2430;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.7rem;
-  height: 100vh;
-  flex-direction: column;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
 }
 
 /*# sourceMappingURL=app.css.map */

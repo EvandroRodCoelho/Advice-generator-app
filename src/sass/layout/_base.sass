@@ -1,0 +1,15 @@
+@use "../core/mixins" 
+@use "../core/varibles" as var
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: var.$font
+
+
+body
+  background-color: var.$background-color
+  @include mixins.flex(center,center)
+  height: 100vh
+  flex-direction: column
