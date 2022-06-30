@@ -27,6 +27,8 @@ body {
   margin: 0 auto;
   border-radius: 0.78rem;
   box-shadow: 5px 5px 10px 5px #1F2531;
+  height: 300px;
+  padding: 20px;
 }
 .main .container {
   max-width: 90%;
@@ -81,19 +83,25 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.7rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   background: #53ffad;
   outline: none;
   border: none;
   cursor: pointer;
   transition: all 0.2s;
 }
-.div-image-dice:hover, .div-image-dice:active {
+.div-image-dice:hover {
   background-color: #53ffa9;
   box-shadow: 4px 13px 94px 9px #274744;
 }
 .div-image-dice img {
   height: 20px;
+}
+@media screen and (min-width: 770px) {
+  .div-image-dice img:focus {
+    background-color: #53ffa9;
+    box-shadow: 4px 13px 94px 9px #274744;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
