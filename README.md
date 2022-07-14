@@ -5,9 +5,13 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
-
+## Web-site:
+https://evandrorodriguescoelho2.github.io/Advice-generator-app/
 ## Technologies used to create the project
 Html , Sass , JavScript
+
+API:
+
 [Advice Slip API](https://api.adviceslip.com)
 
 ## Functionalities
