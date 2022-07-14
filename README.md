@@ -14,7 +14,11 @@ https://evandrorodriguescoelho2.github.io/Advice-generator-app/
 
 ###  Mobile:
 <div align="center">
+<<<<<<< HEAD
 <img  src="https://raw.githubusercontent.com/EvandroRodriguesCoelho2/Advice-generator-app/main/src/design/mobile-design.jpg">
+=======
+<img height="250px"  src="https://raw.githubusercontent.com/EvandroRodriguesCoelho2/Advice-generator-app/main/src/design/mobile-design.jpg">
+>>>>>>> 8b77afbbac9a77d382e86e95dc2ca76d3e2f9417
 </div>
 
 ## Functionalities
