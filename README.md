@@ -14,7 +14,6 @@ https://evandrorodriguescoelho2.github.io/Advice-generator-app/
 
 ###  Mobile:
 <div align="center">
-<<<<<<< HEAD
 <img  src="https://raw.githubusercontent.com/EvandroRodriguesCoelho2/Advice-generator-app/main/src/design/mobile-design.jpg">
 
 
