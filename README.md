@@ -5,7 +5,7 @@
 Thanks for checking out this front-end coding challenge.
 
 ## Web-site:
-https://evandrorodriguescoelho2.github.io/Advice-generator-app/
+https://evandrorodcoelho.github.io/Advice-generator-app/
 ### Desktop:
 <div align="center">
 
