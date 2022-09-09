@@ -3,7 +3,8 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
-
+## Clone
+      git clone https://github.com/EvandroRodCoelho/Advice-generator-app.git
 ## Web-site:
 https://evandrorodcoelho.github.io/Advice-generator-app/
 ### Desktop:
@@ -15,7 +16,6 @@ https://evandrorodcoelho.github.io/Advice-generator-app/
 ###  Mobile:
 <div align="center">
 <img  src="https://raw.githubusercontent.com/EvandroRodriguesCoelho2/Advice-generator-app/main/src/design/mobile-design.jpg">
-
 
 </div>
 
